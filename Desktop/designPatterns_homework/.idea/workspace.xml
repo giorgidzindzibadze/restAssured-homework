@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/designPatterns_homework" value="main" />
+        <entry key="$PROJECT_DIR$/designPatterns_homework" value="POM_dataPatterns" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/designPatterns_homework" />
@@ -59,6 +59,7 @@
       <list>
         <item itemvalue="TestNG.DataPatterns.successLogin" />
         <item itemvalue="TestNG.DataPatterns.successLogin" />
+        <item itemvalue="TestNG.DataPatterns.successLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -83,16 +84,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Data/LoginData.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
