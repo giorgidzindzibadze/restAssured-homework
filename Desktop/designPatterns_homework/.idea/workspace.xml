@@ -20,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/designPatterns_homework" value="POM_dataPatterns" />
+        <entry key="$PROJECT_DIR$/designPatterns_homework" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/designPatterns_homework" />
@@ -34,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/giorg/Desktop/designPatterns_homework/src/test/java",
-    "last_opened_file_path": "C:/Users/giorg/Desktop/designPatterns_homework"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/giorg/Desktop/designPatterns_homework/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/giorg/Desktop/designPatterns_homework&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="TestNG.POMSwoopTest.POMSwoopTest">
     <configuration name="DataPatterns.successLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="designPatterns_homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,10 +55,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="POMSwoopTest2.WebFormsAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="designPatterns_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="POMSwoopTest2" />
+      <option name="METHOD_NAME" value="WebFormsAutomation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POMSwoopTest.POMSwoopTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="designPatterns_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="POMSwoopTest" />
+      <option name="METHOD_NAME" value="POMSwoopTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POMSwoopTest.runMainSwoopPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="designPatterns_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="POMSwoopTest" />
+      <option name="METHOD_NAME" value="runMainSwoopPageSteps" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PageFactory.runMainSwoopPageSteps" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="designPatterns_homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PageFactory" />
+      <option name="METHOD_NAME" value="runMainSwoopPageSteps" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DataPatterns.successLogin" />
-        <item itemvalue="TestNG.DataPatterns.successLogin" />
+        <item itemvalue="TestNG.POMSwoopTest.POMSwoopTest" />
+        <item itemvalue="TestNG.POMSwoopTest.runMainSwoopPageSteps" />
+        <item itemvalue="TestNG.PageFactory.runMainSwoopPageSteps" />
+        <item itemvalue="TestNG.POMSwoopTest2.WebFormsAutomation" />
         <item itemvalue="TestNG.DataPatterns.successLogin" />
       </list>
     </recent_temporary>
@@ -84,5 +134,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Data/LoginData.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
