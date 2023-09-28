@@ -1,6 +1,7 @@
 package PageFactory.Pages;
 
 import dev.failsafe.internal.util.Assert;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -31,6 +32,8 @@ public class FirstMoviePage {
     @FindAll(@FindBy(css = "/div.seanse-details"))
     public List<WebElement> movieTime;
 
+    @FindBy(xpath = "//*[@id=day-choose-03.10.2023]/a")
+    public WebElement moki;
 
     @FindAll(@FindBy(className = "seat-new-part"))
     public List<WebElement> vacantPlace;
@@ -52,28 +55,30 @@ public class FirstMoviePage {
     @FindBy(className = "name")
     public WebElement movieName;
 
-    String actualMovieName = movieNameElement.getText();
-    String actualCinema = cinemaElement.getText();
-    String actualDatetime = datetimeElement.getText();
-    String expectedMovieName =movieName.getText();
-    String expectedCinema = "კავეა სითი მოლი საბურთალო";
+//    String east =eastPoint.getText();
+//    String actualMovieName = movieNameElement.getText();
+//    String actualCinema = cinemaElement.getText();
+//    String actualDatetime = datetimeElement.getText();
+//    String expectedMovieName =movieName.getText();
+//    String expectedCinema = "კავეა სითი მოლი საბურთალო";
 
 
 
 
-
-    public FirstMoviePage clickOnEastPoint() throws InterruptedException {
+    @Step("Fill fields with Cinema Name: {0}")
+    public FirstMoviePage clickOnEastPoint(String eastpoint) throws InterruptedException {
 //        js.executeScript("window.scrollBy(0, 300);");
 //        js.executeScript("window.scrollBy(0, 300);");
-        js.executeScript("arguments[0].scrollIntoView(true);", eastPoint);
+//        js.executeScript("arguments[0].scrollIntoView(true);", eastPoint);
         eastPoint.click();
+
         Thread.sleep(5000);
         return this;
 
     }
 
     public FirstMoviePage clickOnLastDate(){
-        js.executeScript("window.scrollBy(0, 200);");
+//        js.executeScript("window.scrollBy(0, 200);");
         WebElement lastDate = dates.get(dates.size() - 1);
         lastDate.click();
         return this;
@@ -81,7 +86,7 @@ public class FirstMoviePage {
 
 
     public FirstMoviePage checkText(){
-        js.executeScript("window.scrollBy(0, 200);");
+//        js.executeScript("window.scrollBy(0, 200);");
 
         for (WebElement one : movieTime) {
             String oneText = one.getText().trim();
@@ -97,13 +102,14 @@ public class FirstMoviePage {
     }
 
     public FirstMoviePage clickOnLastMovie(){
-        WebElement lastMovie = movieTime.get(movieTime.size() - 1);
-        try {
-            lastMovie.click();
-        } catch (Exception e) {
-            JavascriptExecutor executor = (JavascriptExecutor) driver;
-            js.executeScript("arguments[0].click();", lastMovie);
-        }
+//        WebElement lastMovie = movieTime.get(movieTime.size() - 1);
+//        try {
+//            lastMovie.click();
+//        } catch (Exception e) {
+//            JavascriptExecutor executor = (JavascriptExecutor) driver;
+//            js.executeScript("arguments[0].click();", lastMovie);
+//        }
+        moki.click();
         return this;
     }
 

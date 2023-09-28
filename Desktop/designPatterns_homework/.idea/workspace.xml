@@ -34,15 +34,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/giorg/Desktop/designPatterns_homework/src/test/java&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giorg/Desktop/designPatterns_homework&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Users/giorg/Desktop/designPatterns_homework/src/test/java",
+    "last_opened_file_path": "C:/Users/giorg/Desktop/designPatterns_homework",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.POMSwoopTest.POMSwoopTest">
+}]]></component>
+  <component name="RunManager" selected="TestNG.PageFactory.runMainSwoopPageSteps">
     <configuration name="DataPatterns.successLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="designPatterns_homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -105,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PageFactory.runMainSwoopPageSteps" />
+        <item itemvalue="TestNG.DataPatterns.successLogin" />
         <item itemvalue="TestNG.POMSwoopTest.POMSwoopTest" />
         <item itemvalue="TestNG.POMSwoopTest.runMainSwoopPageSteps" />
-        <item itemvalue="TestNG.PageFactory.runMainSwoopPageSteps" />
         <item itemvalue="TestNG.POMSwoopTest2.WebFormsAutomation" />
-        <item itemvalue="TestNG.DataPatterns.successLogin" />
       </list>
     </recent_temporary>
   </component>

@@ -1,3 +1,4 @@
+import Data.LoginData;
 import Steps.FirstPageSteps;
 import Steps.FourthPageSteps;
 import Steps.SecondPageSteps;
@@ -38,6 +39,8 @@ public class DataPatterns {
     ThirdPageSteps thirdPageStep =new ThirdPageSteps();
     FourthPageSteps fourthPageSteps = new FourthPageSteps();
 
+    LoginData loginData = new LoginData();
+
 
     @Test(description = "Login Scenario")
     @Description("Success login scenario")
@@ -45,7 +48,7 @@ public class DataPatterns {
     public void successLogin(){
         firstPageStep.clickAction();
         secondPageStep.clickAction2();
-        thirdPageStep.FillFields();
+        thirdPageStep.FillFields(loginData.firstName,loginData.lastName);
         fourthPageSteps.checkText();
         fourthPageSteps.checkInfos();
     }

@@ -1,5 +1,6 @@
 package PageFactory.Pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,6 +23,7 @@ public class MoviesPage {
     @FindAll(@FindBy(className = "movies-deal"))
     public List<WebElement> allmovies;
 
+    @Step
     public MoviesPage clickOnKino() {
         for (WebElement movie : allmovies) {
             try {

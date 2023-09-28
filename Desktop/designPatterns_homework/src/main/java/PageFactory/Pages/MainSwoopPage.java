@@ -1,5 +1,6 @@
 package PageFactory.Pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -10,7 +11,7 @@ import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 import java.util.List;
 
 public class MainSwoopPage {
-     WebDriver driver;
+    WebDriver driver;
 
 
 
@@ -23,6 +24,7 @@ public class MainSwoopPage {
     @FindAll(@FindBy(className = "MoreCategories"))
     public List<WebElement> kinoList;
 
+    @Step
     public MainSwoopPage clickOnKino() {
         WebElement kinoElement = kinoList.get(0); // Change the index as needed
         kinoElement.click();

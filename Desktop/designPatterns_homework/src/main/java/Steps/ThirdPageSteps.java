@@ -10,8 +10,8 @@ public class ThirdPageSteps {
     ThirdPage thirdPage = new ThirdPage();
     LoginData loginData = new LoginData();
 
-    @Step
-    public ThirdPageSteps FillFields(){
+    @Step("Fill fields with First Name: {0}, Last Name: {1}")
+    public ThirdPageSteps FillFields(String firstName, String lastName ){
         thirdPage.firstName.setValue(loginData.firstName);
         thirdPage.lastName.setValue(loginData.lastName);
         thirdPage.gender.click();

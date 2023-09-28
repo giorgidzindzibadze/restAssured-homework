@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class FirstPageSteps {
     FirstPage firstPage = new FirstPage();
 
-    @Step
+    @Step()
     public FirstPageSteps clickAction() {
         open("https://demoqa.com/");
         executeJavaScript("window.scrollBy(0, 200);");

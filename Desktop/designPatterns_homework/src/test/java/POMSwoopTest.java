@@ -5,7 +5,7 @@ import POM.Pages.PopUpPage2;
 import PageFactory.Pages.FirstMoviePage;
 import PageFactory.Pages.MainSwoopPage;
 import PageFactory.Pages.MoviesPage;
-import PageFactory.Pages.PopUpPage;
+//import PageFactory.Pages.PopUpPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,5 +1,6 @@
 package PageFactory.Pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -49,11 +50,12 @@ public class PopUpPage {
     String expectedCinema = "კავეა სითი მოლი საბურთალო";
 
 
-
+    @Step
     public PopUpPage clickOnVacantPlace(){
         vacantPlace.get(0).click();
         return this;
     }
+    @Step
     public PopUpPage checkMovieTime(){
         for (WebElement each : movieTime
         ) {
@@ -63,16 +65,15 @@ public class PopUpPage {
         }
         return this;
     }
-
+    @Step
     public PopUpPage checkMovieName(){
         assert actualMovieName.equals(expectedMovieName);
         return this;
 
     }
-
+    @Step
     public PopUpPage checkCinema(){
         assert actualCinema.equals(expectedCinema);
         return this;
     }
 }
-
