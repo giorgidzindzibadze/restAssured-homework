@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3948f53-a5c2-4f8c-a2c4-0ef757363fa7" name="Changes" comment="" />
+    <list default="true" id="a3948f53-a5c2-4f8c-a2c4-0ef757363fa7" name="Changes" comment="Add" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,18 +29,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/giorg/Desktop/restAssured-homework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.restTest.isbnTest">
-    <configuration name="restTest.bookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="TestNG.restTest2">
+    <configuration name="restTest2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest" />
-      <option name="METHOD_NAME" value="bookTest" />
+      <option name="MAIN_CLASS_NAME" value="restTest2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest2.step2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest2" />
+      <option name="METHOD_NAME" value="step2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -48,11 +61,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest.isbnTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest2.updataDatas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest" />
-      <option name="METHOD_NAME" value="isbnTest" />
+      <option name="MAIN_CLASS_NAME" value="restTest2" />
+      <option name="METHOD_NAME" value="updataDatas" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest2.updateData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest2" />
+      <option name="METHOD_NAME" value="updateData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest2.validationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest2" />
+      <option name="METHOD_NAME" value="validationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -62,8 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.restTest.isbnTest" />
-        <item itemvalue="TestNG.restTest.bookTest" />
+        <item itemvalue="TestNG.restTest2" />
+        <item itemvalue="TestNG.restTest2.validationTest" />
+        <item itemvalue="TestNG.restTest2.updataDatas" />
+        <item itemvalue="TestNG.restTest2.step2" />
+        <item itemvalue="TestNG.restTest2.updateData" />
       </list>
     </recent_temporary>
   </component>
