@@ -37,23 +37,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.restTest2">
-    <configuration name="restTest2" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.restTest3.specTest">
+    <configuration name="restTest3.jsonPathValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest2" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="restTest2.step2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restAssured-homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest2" />
-      <option name="METHOD_NAME" value="step2" />
+      <option name="MAIN_CLASS_NAME" value="restTest3" />
+      <option name="METHOD_NAME" value="jsonPathValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -61,11 +50,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest2.updataDatas" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest3.kisas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest2" />
-      <option name="METHOD_NAME" value="updataDatas" />
+      <option name="MAIN_CLASS_NAME" value="restTest3" />
+      <option name="METHOD_NAME" value="kisas" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,11 +62,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest2.updateData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest3.specTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest2" />
-      <option name="METHOD_NAME" value="updateData" />
+      <option name="MAIN_CLASS_NAME" value="restTest3" />
+      <option name="METHOD_NAME" value="specTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,11 +74,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest2.validationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest3.specsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest2" />
-      <option name="METHOD_NAME" value="validationTest" />
+      <option name="MAIN_CLASS_NAME" value="restTest3" />
+      <option name="METHOD_NAME" value="specsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest3.validationTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest3" />
+      <option name="METHOD_NAME" value="validationTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.restTest2" />
-        <item itemvalue="TestNG.restTest2.validationTest" />
-        <item itemvalue="TestNG.restTest2.updataDatas" />
-        <item itemvalue="TestNG.restTest2.step2" />
-        <item itemvalue="TestNG.restTest2.updateData" />
+        <item itemvalue="TestNG.restTest3.specTest" />
+        <item itemvalue="TestNG.restTest3.jsonPathValidation" />
+        <item itemvalue="TestNG.restTest3.validationTests" />
+        <item itemvalue="TestNG.restTest3.specsTest" />
+        <item itemvalue="TestNG.restTest3.kisas" />
       </list>
     </recent_temporary>
   </component>

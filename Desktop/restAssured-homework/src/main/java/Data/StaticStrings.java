@@ -10,6 +10,9 @@ public class StaticStrings {
                     author2 = "Addy Osmani",
                     username = "admin",
                     password = "password123",
-                    baseURI = "https://bookstore.toolsqa.com/BookStore/v1/Books";
+                    baseURI = "https://bookstore.toolsqa.com/BookStore/v1/Books",
+                    idURL = "https://restful-booker.herokuapp.com/booking/";
+
+
     public int totalprice = 111;
 }
