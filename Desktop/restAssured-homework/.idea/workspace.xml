@@ -37,12 +37,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.restTest3.specTest">
-    <configuration name="restTest3.jsonPathValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.restTest4.main">
+    <configuration name="CreateBookingTests.getBookExamplesWithJackonAndJsonPAth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest3" />
-      <option name="METHOD_NAME" value="jsonPathValidation" />
+      <option name="MAIN_CLASS_NAME" value="CreateBookingTests" />
+      <option name="METHOD_NAME" value="getBookExamplesWithJackonAndJsonPAth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -50,11 +50,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest3.kisas" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetBookTests.getBookExamplesWithJackonAndJsonPAth" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetBookTests" />
+      <option name="METHOD_NAME" value="getBookExamplesWithJackonAndJsonPAth" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest3.jsonPathValidation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="restTest3" />
-      <option name="METHOD_NAME" value="kisas" />
+      <option name="METHOD_NAME" value="jsonPathValidation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,23 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest3.specsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest4.main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest3" />
-      <option name="METHOD_NAME" value="specsTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="restTest3.validationTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restAssured-homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest3" />
-      <option name="METHOD_NAME" value="validationTests" />
+      <option name="MAIN_CLASS_NAME" value="restTest4" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.restTest4.main" />
+        <item itemvalue="TestNG.CreateBookingTests.getBookExamplesWithJackonAndJsonPAth" />
+        <item itemvalue="TestNG.GetBookTests.getBookExamplesWithJackonAndJsonPAth" />
         <item itemvalue="TestNG.restTest3.specTest" />
         <item itemvalue="TestNG.restTest3.jsonPathValidation" />
-        <item itemvalue="TestNG.restTest3.validationTests" />
-        <item itemvalue="TestNG.restTest3.specsTest" />
-        <item itemvalue="TestNG.restTest3.kisas" />
       </list>
     </recent_temporary>
   </component>

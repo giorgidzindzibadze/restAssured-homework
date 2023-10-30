@@ -3,6 +3,7 @@ package Steps;
 import Data.StaticStrings;
 import io.qameta.allure.Step;
 import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -11,15 +12,15 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class SpecTestSteps {
     StaticStrings staticStrings = new StaticStrings();
-    RequestSpecification requestSpecification;
-    int id;
+    public RequestSpecification requestSpecification;
+    public int id;
     Response response;
     @Step
     public SpecTestSteps specStep(){
          requestSpecification = RestAssured
                 .given()
-                 .contentType("ContentTypeJSON")
-                 .accept("ContentTypeJSON")
+                 .contentType(ContentType.JSON)
+                 .accept(ContentType.JSON)
                 .auth()
                 .preemptive()
                 .basic(staticStrings.username, staticStrings.password);
