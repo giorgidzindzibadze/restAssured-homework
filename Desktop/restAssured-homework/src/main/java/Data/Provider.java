@@ -3,11 +3,16 @@ package Data;
 import org.testng.annotations.DataProvider;
 
 public class Provider {
+    StaticStrings staticStrings = new StaticStrings();
     @DataProvider(name = "data")
     public Object[][] getInformation() {
 
-        Object[][] dates = {{"books[0].author","Richard E. Silverman","books[0].isbn"},
-                {"books[1].author","Addy Osmani","books[1].isbn"}
+        Object[][] dates = {{staticStrings.checkin,staticStrings.checkout,staticStrings.firstname,staticStrings.lastname,
+                            staticStrings.totalprice,staticStrings.depositpaid,
+                staticStrings.additionalneeds,staticStrings.salesprice,staticStrings.passportNo},
+                {staticStrings.checkin,staticStrings.checkout,staticStrings.Name,staticStrings.lstName,
+                        staticStrings.totalprice,staticStrings.depositPaid2,
+                        staticStrings.additionalneeds,staticStrings.salesprice,staticStrings.passportNo}
 
         };
         return dates;

@@ -37,7 +37,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.restTest4.main">
+  <component name="RunManager" selected="TestNG.restTest5.main">
     <configuration name="CreateBookingTests.getBookExamplesWithJackonAndJsonPAth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,30 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest3.jsonPathValidation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restAssured-homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest3" />
-      <option name="METHOD_NAME" value="jsonPathValidation" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="restTest3.specTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restAssured-homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest3" />
-      <option name="METHOD_NAME" value="specTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="restTest4.main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,13 +74,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="restTest5.is" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest5" />
+      <option name="METHOD_NAME" value="is" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest5.main" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest5" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.restTest5.main" />
+        <item itemvalue="TestNG.restTest5.is" />
         <item itemvalue="TestNG.restTest4.main" />
         <item itemvalue="TestNG.CreateBookingTests.getBookExamplesWithJackonAndJsonPAth" />
         <item itemvalue="TestNG.GetBookTests.getBookExamplesWithJackonAndJsonPAth" />
-        <item itemvalue="TestNG.restTest3.specTest" />
-        <item itemvalue="TestNG.restTest3.jsonPathValidation" />
       </list>
     </recent_temporary>
   </component>
