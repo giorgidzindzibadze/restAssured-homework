@@ -37,35 +37,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.restTest5.main">
-    <configuration name="CreateBookingTests.getBookExamplesWithJackonAndJsonPAth" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.restTest6">
+    <configuration name="restTest6" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CreateBookingTests" />
-      <option name="METHOD_NAME" value="getBookExamplesWithJackonAndJsonPAth" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="restTest6" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetBookTests.getBookExamplesWithJackonAndJsonPAth" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest6.main" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetBookTests" />
-      <option name="METHOD_NAME" value="getBookExamplesWithJackonAndJsonPAth" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="restTest4.main" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="restAssured-homework" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest4" />
+      <option name="MAIN_CLASS_NAME" value="restTest6" />
       <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -74,11 +61,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest5.is" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest6.sampleTestss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest5" />
-      <option name="METHOD_NAME" value="is" />
+      <option name="MAIN_CLASS_NAME" value="restTest6" />
+      <option name="METHOD_NAME" value="sampleTestss" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,11 +73,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="restTest5.main" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="restTest6.siss" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-homework" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="restTest5" />
-      <option name="METHOD_NAME" value="main" />
+      <option name="MAIN_CLASS_NAME" value="restTest6" />
+      <option name="METHOD_NAME" value="siss" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restTest6.testFindPersonApi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-homework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="restTest6" />
+      <option name="METHOD_NAME" value="testFindPersonApi" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.restTest5.main" />
-        <item itemvalue="TestNG.restTest5.is" />
-        <item itemvalue="TestNG.restTest4.main" />
-        <item itemvalue="TestNG.CreateBookingTests.getBookExamplesWithJackonAndJsonPAth" />
-        <item itemvalue="TestNG.GetBookTests.getBookExamplesWithJackonAndJsonPAth" />
+        <item itemvalue="TestNG.restTest6" />
+        <item itemvalue="TestNG.restTest6.testFindPersonApi" />
+        <item itemvalue="TestNG.restTest6.siss" />
+        <item itemvalue="TestNG.restTest6.main" />
+        <item itemvalue="TestNG.restTest6.sampleTestss" />
       </list>
     </recent_temporary>
   </component>

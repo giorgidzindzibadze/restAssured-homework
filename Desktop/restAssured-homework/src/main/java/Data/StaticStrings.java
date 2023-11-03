@@ -1,5 +1,9 @@
 package Data;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class StaticStrings {
     public String firstname = "Giorgi",
                     Name = "Nika",
@@ -12,15 +16,22 @@ public class StaticStrings {
                     author2 = "Addy Osmani",
                     username = "admin",
                     password = "password123",
+                    street = "6894 Clinton Place",
                     baseURI = "https://bookstore.toolsqa.com/BookStore/v1/Books",
                     idURL = "https://restful-booker.herokuapp.com/booking/",
-                    passportNo = null;
+                    passportNo = null,
+                    antarctica = "Antarctica",
+                    xmlUrl = "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso/ListOfContinentsByName";
 
     public boolean depositpaid = true,
                     depositPaid2 =false;
 
 
     public int totalprice = 111,
-            salesprice = 999;
-//           public Integer passportNo = null;
+            salesprice = 999,
+            expectedSize = 6,
+            zip = 73302;
+    public List<String> expectedSrings = Arrays.asList("Africa","Antarctica","Asia",
+            "Europe","Ocenania","The Americas");
+
 }
